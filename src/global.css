@@ -13,7 +13,7 @@
   --purple-dark: #5e60ce;
   --purple: #8284fa;
 
-  --red-500: #e25858;
+  --red: #e25858;
 }
 
 :focus {
@@ -28,9 +28,10 @@
 }
 
 body {
-  background: var(--gray-900);
+  background: var(--gray-600);
   color: var(--gray-300);
   -webkit-font-smoothing: antialiased;
+  width: 100%;
 }
 
 body,
@@ -40,4 +41,5 @@ button {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  line-height: 140%;
 }
