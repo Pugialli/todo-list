@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -2rem;
+  margin-top: -1.75rem;
   gap: 0.5rem;
 }
 
@@ -20,11 +20,12 @@
 }
 
 .input:placeholder-shown {
-  border: 0;
+  border: 1px solid var(--gray-500);
   color: var(--gray-300);
 }
 
-.input:not(placeholder-shown) {
+.input:not(placeholder-shown),
+.input:focus {
   border: 1px solid var(--purple-dark);
   color: var(--white);
 }

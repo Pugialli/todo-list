@@ -1,7 +1,9 @@
 .tasklist {
   width: 100%;
+  height: 22rem;
   display: flexbox;
   padding: 4rem 22rem;
+  margin-bottom: 10rem;
 }
 
 .listHeader {

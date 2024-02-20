@@ -35,7 +35,7 @@ export function TaskList({
         <div className={tasks.length === 0 ? styles.empty : styles.emptyHidden}>
           <img src={clipboard} />
           <strong>Você ainda não tem tarefas cadastradas</strong>
-          <p>Crie taregas e organize seus itens a fazer</p>
+          <p>Crie tarefas e organize seus itens a fazer</p>
         </div>
         {tasks.map((task) => {
           return (

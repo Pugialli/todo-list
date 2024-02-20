@@ -27,7 +27,10 @@ export function Task({ task, onDeleteTask, onCompleteTask }: TaskProps) {
   }
 
   return (
-    <div className={styles.task} key={task.id}>
+    <div
+      className={completedTask ? styles.taskCompleted : styles.task}
+      key={task.id}
+    >
       <Button
         type="checkbox"
         checkbox={completedTask}
