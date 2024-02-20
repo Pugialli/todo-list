@@ -17,7 +17,7 @@ export function Button({
     return (
       <button type="submit" className={styles.create}>
         <strong>Criar</strong>
-        <PlusCircle />
+        <PlusCircle size={16} color="#F2F2F2" />
       </button>
     );
   } else if (type === "delete") {
